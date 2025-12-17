@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Marketplace</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+    <body>
+        <div class="login-container">
+            <h1>Login to Mind Spark Account</h1>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" id="btn">Login</button>
+            </form>
+        </div>
+        <div id="postCreatedMessage" class="post-message">
+                Successfully Login!
+        </div>
+        <script>
+    document.getElementById('login-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        if (username && password) {
+            // Show success message
+            const msg = document.getElementById('postCreatedMessage');
+            msg.style.display = 'block';
+
+            // Hide after 3 seconds, then redirect
+            setTimeout(() => {
+                msg.style.display = 'none';
+                window.location.href = 'index.html'; 
+            }, 3000);
+        }
+
+        this.reset();
+    });
+</script>
+    </body>
+</html>

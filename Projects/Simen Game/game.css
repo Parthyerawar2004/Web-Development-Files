@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+h2{
+    text-align: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 8px solid black;
+    border-radius: 25px;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.yellowgreen{
+    background-color: yellowgreen;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color: black;
+}
+
+
+
+
+/* #urbox{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    border: 8px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+#llbox{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border: 8px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+#lrbox{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 8px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+} */

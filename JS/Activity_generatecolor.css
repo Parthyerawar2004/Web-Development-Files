@@ -1,0 +1,20 @@
+.changename{
+    text-align: center;
+}
+.generate{
+    display : block;
+    margin : 0 auto;
+    width: 150px;        
+    height: 30px;   
+}
+.rectangle{
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+
+    position: absolute;
+    top : 150px;
+    left : 500px;
+}

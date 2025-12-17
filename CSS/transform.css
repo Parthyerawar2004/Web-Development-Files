@@ -1,0 +1,28 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #2fd719;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f9cb12;
+}
+div:nth-of-type(3n){
+    background-color: rgba(11, 247, 247, 0.851);
+}
+/*transform : Rotate*/
+#one{
+    transform: rotate(180deg);
+}
+/*Transform: scale*/
+#two{
+    transform: scale(0.5);
+}
+#four{
+    transform: translateX(100px);
+}

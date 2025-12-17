@@ -1,0 +1,13 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    font-size: 10px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 2em;
+    padding: 3em;
+}

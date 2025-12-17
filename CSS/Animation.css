@@ -1,0 +1,53 @@
+h2{
+    text-align: center;
+}
+.box{
+    height: 100px;
+    width: 300px;
+    /* background-color: aqua;
+    animation-name: widthanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: widthanimation 3s ease-in 1s infinite alternate;
+}
+/* @keyframes widthanimation{
+    from{
+        width: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+} */
+@keyframes widthanimation{
+    0%{
+        width: 20px;
+        background-color: yellowgreen;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        width: 400px;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    }
+@keyframes myanimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes mycoloranimation{
+    from{
+        background-color: yellowgreen;
+    }
+    to{
+        background-color: blue;
+    }
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Blog (Local-only)</title>
+  <link rel="stylesheet" href="Blog_portal.css">
+</head>
+    <body>
+    <div class="wrap">
+        <header>
+        <div class="brand">
+            <div class="logo">B</div>
+            <div>
+            <div class="title">LocalBlog</div>
+            <div class="hint">Create · Edit · Delete · Sign up — all local (no server)</div>
+            </div>
+        </div>
+        <div class="controls" id="topControls"></div>
+        </header>
+
+        <main class="grid">
+        <aside class="sidebar card" id="sidebar"></aside>
+        <section class="feed" id="feed"></section>
+        </main>
+
+        <!-- Modals (hidden by default) -->
+        <div id="modalWrapper" style="display:none;position:fixed;inset:0;background:rgba(2,6,23,0.6);align-items:center;justify-content:center;padding:18px;z-index:60">
+        <div id="modal" style="width:100%;max-width:720px;background:var(--card);padding:18px;border-radius:12px"></div>
+        </div>
+
+    </div>
+    <script src="Blog_portal.js"></script>
+    </body>
+</html>
